@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <title>OSE | Sign Up</title>
+            <meta name="description" content="OSE is a drama queen. Login to see what he's all about"/>
+            <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="stylesheet" type="text/css" href="OSE_II.css">
+    </head>
+        <body class="body1">
+            <fieldset style="text-align: center; border: 0ch;">
+                <form>
+                    <legend style="text-align: inherit; padding-top: 15%;"><strong style="color: rgb(218, 217, 217); font-size: larger;"><b> SIGN UP</b> </strong></legend><br>
+                       <!--<label for="lastname"></label>
+                            <input type="text" id="lastname" name="lastname" placeholder="Last Name" maxlength="20" minlength="2" required><br><br>
+                            <label for="othernames"></label>
+                            <input type="text" id="othernames" name="othernames" placeholder="Other names" minlength="2" maxlength="25" required><br><br>
+                        ---> 
+                            <label for="username"></label>
+                            <input type="text" id="username" name="username" placeholder="Username" minlength="3" maxlength="6" required><br><br>
+                        <label for="email"></label>
+                            <input type="email" name="email" id="email" placeholder="Email Address" required><br><br>
+                        <label for="password"></label>
+                            <input type="password" id="password" name="password" placeholder="Password" minlength="8" maxlength="12" required><br><br>
+                        <label for="confirmpassword"></label>
+                            <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password" minlength="8" maxlength="12" required><br><br>
+                        <input type="submit" value="Sign Up" formaction="OSE_IV.html">
+                </form>        
+            </fieldset>             
+        </body>
+</html>
