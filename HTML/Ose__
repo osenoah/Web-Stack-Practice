@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head>
+        <title>OSE</title>
+            <meta name="description" content="OSE is a drama queen. Login to see what he's all about"/>
+            <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+    <body>
+        <header style="background-color: #303030; height: 80px; width:100%">
+            <h1 style="font-size: 30px; color: white; text-align: center; padding-top: 15px;"><a href="www.goofy.com" style="color: white; text-decoration: none;">Home</a> &nbsp; &nbsp; &nbsp; <a href="www.goof.com" style="color: white; text-decoration: none;">About</a> &nbsp; &nbsp; &nbsp; <a href="www.goo.com" style="color: white; text-decoration: none;">Contact</a> &nbsp; &nbsp; &nbsp; <a href="www.good.com" style="color: white; text-decoration: none;">Services</a> </h1>
+        </header>
+        <nav style="background-color: #bcdeef;">
+            <h1 style="text-align: center;">Navigation Links</h1>
+            <ul>
+                <li><a href="https://www.goat.com" style="text-decoration: none;">Goat</a></li>
+                <li><a href="https://www.cow.com" style="text-decoration: none;">Cow</a></li>
+                <li><a href="https://www.godon.com" style="text-decoration: none;">Godon</a></li>
+                <li><a href="https://www.pig.com" style="text-decoration: none;">Pig</a></li>
+            </ul>
+        </nav>
+        <section style="background-color: #ff7f50; width: 50%; border: 1px solid black;">
+            <h2>Introduction to HTML</h2>
+            <p>HTML is a markup language which is used for creating attractive web pages with the help of styling and which looks in a nice format on a web browser.</p>
+        </section><br><br>
+        <article style="width: 50%; border: 2px solid black; background-color: #fff0f5;">
+            <h2>History of Computers</h2>
+            <p>I am a paragraph created by an AI language model known as ChatGPT. My purpose is to assist users like you in generating human-like text and providing helpful information. With the ability to understand and respond to a wide range of topics, I can engage in conversations, answer questions, offer explanations, and even provide suggestions. </p>
+        </article>
+        <aside style="width: 50%; background-color: #bebed8; text-align: right;">
+            <h2>Sidebar Information</h2>
+            <p>This contains information which will represent like a side bar for a webpage</p>
+        </aside>
+        <footer style="background-color: #f0f8ff; text-align: center; width:100%">
+            <h3>Footer Example</h3>
+                <p>Copyright 2008-2020</p>
+        </footer>
+        <details style="background-color: #f5deb3;">
+            <summary>This is a visible dection click below to reveal the hidden contents. <b>XOXO_OSE</b></summary>
+                <p>This section only shows if you want to see it, but be carful what you wish for. Introduction to HTML
+                    HTML is a markup language which is used for creating attractive web pages with the help of styling and which looks in a nice format on a web browser. History of Computers
+                    I am a paragraph created by an AI language model known as ChatGPT. My purpose is to assist users like you in generating human-like text and providing helpful information. With the ability to understand and respond to a wide range of topics, I can engage in conversations, answer questions, offer explanations, and even provide suggestions. 
+                    Computing has led the world with its innovations and problem-solving ability, that’s why I’ve decided to expand my reasoning on it. Computer science offers a lasting opportunity for broadening knowledge and learning. I have realized so far that I’ve just being at the basis of the subject since my study began. The areas of practical in computing are what I find interesting. I enjoydoing every bit of it. The practical I saw as a challenge to complete was creating a query for a database using Microsoft access. Programming and software development is my main interest in computer science. It creates solution to problems using variety of methods even though it seems challenging.
+                    Throughout my study in my senior classes, I realized subjects towards my choice of study were linked from Computing to Mathematics, Physics to Further Mathematics and a little bit of Economics and Data Processing.  Mathematics has been a huge part of me. It made me comprehend that for every problem there is always a solution. I get pleased with myself when I solve an equation or a word problem on it. No doubts, it has its complexities but continuous practice has made it a walk through for me. It has given me a distinct thinking process which is applicable to other subject areas. Physics plays a huge role in our everyday life. Computing assisted me in studying statistics under economics using the Microsoft excel program to avoid manual and analytical errors.	
+                    I am from the country Nigeria. Studying this course in the United Kingdom and becoming an international student will make me more efficient both home and abroad also developing my understanding in this technological era. In Nigeria, there’s little or no development in various sectors. The investment I am making into my future by studying this course will surely benefit my country. It is my homeland; I will like to see her progress. I plan to make a change in her major sectors with my knowledge of computer science, no matter how little it reflects. 
+                    When I got the position of being a senior prefect in the school, it taught me how to be responsible for myself, the school and its students and other prefects. I became an apprentice at a computer institution at the age of 13. I was taught on computer literacy for three months. I work part-time with my Dad in his job. I assist in the preventive and corrective maintenance of industrial generators.  I was his computer assistant. I helped to create broadsheets for his jobs every month using a spreadsheet application. I also worked for a month after my apprenticeship at the computer institution. I also developed business running skills. This helped me to build on my independent and communication skills in my daily living.
+                    At my leisure, I listen to music and play the piano. I work really hard to perfect my skills on the piano. I have loved drawing forever. I draw landscapes, still-life, portraits and animations. I also create and design my characters. I have a comic project I am working on with three of my friends and it is going smooth. I am the artist and the writer. I also write fictional stories. I also create digital arts to add color and texture to perfect my characters. In my free hours, I enjoyed playing football and board games. In my school’s football team, I learnt the values of teamwork, tolerance and cooperation. My coach always tells us to push harder in whatever we do towards football. I applied this not only in football but in everything I did and there was great improvement. ‘No room for quitters’ is what has increased determination. Board games helped me to control my thoughts before I act. 
+                    Sincerely, I will contribute to the University and the World positively and would love to make that happen by studying in the United Kingdom where I believe improvement in my skills and education is inevitable. At the end of this journey at this University, I will make myself, my family, my nation and everyone who believes in me proud.
+                    
+                    
+                    
+                    </p>
+        </details>
+    </body>
+</html>
