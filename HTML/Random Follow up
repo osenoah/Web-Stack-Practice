@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+    <head>  
+        <title> OSE_ </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="style.js"></script>
+    </head>
+        <body class="bod">
+             <h1 title="Na the head be this"> HOW IT ALL STARTED </h1>
+                <p style="color: darkred; font-size: 14px;"> Mr. OWEN a very dinstinctive individual </p>
+                <p style="font-size: smaller; font-style: italic"> <strong> I pay homage to God and the Mystic force </strong> </p>
+                    <a href=file:///C:/Users/Jitic%20Projects/Documents/learni.html target="_parent"> Customer's Info. </a><br>
+                        <br><img title="Just a guy" src="guY.jpg" alt="JOMAN" height="50" width="75"><br>
+                            <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> REX isn't who you think he is </span>
+                <p class="p"> <i> <mark> Balls ain't gonna ball themselves.</mark>  <span title="maths equation"> 6<sup>2</sup> * 7<sub>3</sub> </span> </i> </p>
+                <p><del>Dex like a gangsta</del> <br> <ins>On my face innocent</ins></p>
+                    <div> Vim being the best decision ever </div>
+                <p class="p" title="Uniform Resource Locator" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> URL </p>
+                        <blockquote cite="nova.hq"> "REX has not been the man he says he is. He's the fraud in our nightmares and bolish in our spines." </blockquote>
+                            <cite>_REX Hughes</cite>
+                <p class="p"> Code in C with me</br>
+                        <code> // Thank you grace <br> gcc <br> include stdio.h <br> int main () <br> printf ("Bullshit") </code>
+                <p class="p">Press the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd> to open the Task menu.</p>
+                        <address> You can come over, let's make chidren, here's my address 
+                            <br> 18, Winner's Street, PalmView Estate.
+                        </address> <br><button onclick="myFunction()">Hide elements</button>
+                    <a href="C:/Users/Jitic%20Projects/Documents/cc.html"> <img src="C:/Users/Jitic%20Projects/Pictures/TEMS,,.jpg" height="200" width="150" alt="Obsessed"> </a>
+                <p class="p" style="text-align: center; font-style: italic; font-weight: bolder; size: 100px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> COMPUTING DEVICES </p> <br>
+                        <ul style="list-style-type: none; display: table-row;">
+                            <li><b><big> 300BC till 1617 </big></b></li>
+                                <ul style="list-style-type: disc;">
+                                    <li> The ABACUS    </li>
+                                    <li> Slide Rule    </li>
+                                    <li> Napier's Bone </li>
+                                </ul><br>
+                            <li><b><big> 1617 till 1801  </big></b></li>
+                                <ul style="list-style-type: disc;">
+                                    <li> Pascaline        </li>
+                                    <li> Leibnitz Machine </li>
+                                    <li> Jacquard's Loom  </li>
+                                </ul><br>
+                            <li><b><big> 1801 till 1943  </big></b></li>
+                                <ul style="list-style-type: disc;">
+                                    <li> Difference and Analytical Engine  </li>
+                                    <li> Hollerith's Desks                 </li>
+                                    <li> Burrough's Machine                </li>
+                                </ul><br>
+                            <li><b><big> 1943 till 1977  </big></b></li>
+                                <ul style="list-style-type: disc;">
+                                    <li title="Electronic Numerical Integrator and Calculator">  ENIAC  </li>
+                                    <li title="Electronic Discrete Variable Automatic Computer"> EDVAC  </li>
+                                    <li title="Universal Automatic Computer">                    UNIVAC </li>
+                                    <li> Personal Computers</li>
+                                </ul>
+                        </ul><br>
+                <fieldset style="text-align: center; border: 0ch;">
+                    <legend style="text-align: inherit;"><b>Login</b></legend>
+                        <form method="post">
+                            <label for="username"></label><br>
+                                <input type="text" id="username" name="username" placeholder="Username" maxlength="6" minlength="3"/><br>
+                            <label for="password"></label><br>
+                                <input type="password" id="password" name="password" placeholder="Password" maxlength="12" minlength="8"/><br><br>
+                                <input type="file" name="newfile"><br><br>
+                                <input type="email" name="email" placeholder="Email" form="fcontrol" required><br><br>
+                                <input type="search" placeholder="Search" name="q"> <br><br>
+                                <input type="color" name="upclick" value="">Upclick <br><br>
+                                <input type="color" name="downclick" value="#f5f5dc">Downclick <br><br>
+                            <label for="website"></label>
+                                <input type="url" name="website" placeholder="Enter URL here"><br><br>
+                                <input type="tel" name="telephone number" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                                <input style="text-align: left;" type="submit" value="Login">
+                                <input style="text-align: right;" type="submit" form="fcontol" value="Sign Up">
+                                <input type="button" value="Hit me" onclick="alert('Avoid Women')"><br><br>
+                            </form>
+                </fieldset>
+            <p><video title="Youaccel" width="10%" controls>
+                    <source src="ya.mp4" type="video/mp.4">
+                    Your browser doesn't support this file
+                </video>
+            </p>
+            
+            <script>
+                function myFunction() {
+                    var x = document.getElementsByClassName("p");
+                    for (var i = 0; i < x.length; i++) {
+                        x[i].style.display = none;
+                    }
+                }
+            </script><br><br>
+            <iframe src="guY.jpg" height="400" width="1200" name="iframe_a" style="border: 0ch;"></iframe>
+                <a href="C:/Users/Jitic%20Projects/Documents/cc.html" target="iframe_a">Crypto.com</a><br><br>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/pbTQ77qEzwc" title="Scary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p id="demo"></p>
+                <button style="text-align: left;" onclick="myFunction()">Click ME</button>
+                    <script>
+                        function myFunction(){
+                        document.getElementById("demo").innerHTML = "Hello JavaTpoint";
+                        document.getElementById("demo").style.fontSize = "25px";
+                        document.getElementById("demo").style.color = "brown";
+                        document.getElementById("demo").style.backgroundColor = "lightgreen";
+                        }
+                    </script><br><br>
+                    <script>
+                        function light(sw){
+                            var pic;
+                                if (sw == 0) {
+                                    pic = "guy.jpg"
+                                } else{
+                                    pic = "C:/Users/Jitic%20Projects/Pictures/TEMS,,.jpg"
+                                }
+                            document.getElementById('myimage').src = pic;
+                        }
+                    </script>
+                    <img src="guY.jpg" height="400" width="400" id="myimage"><br><br>
+                    <button type="button" onclick="light(0)">Guy</button>
+                    <button type="button" onclick="light(1)">Tems</button><br><br>
+
+                   
+                    <img src="guY.jpg" height="550" width="400" id="Love"><br><br>
+                    <button type="button" onclick="Love(0)">guy</button>
+                    <button type="button" onclick="Love(1)">tems</button><br><br>
+                
+                <form onsubmit="fun()">
+                    <label for="uname"></label>
+                        <input type="text" name="uname" id="username" placeholder="Username"><br><br>
+                    <label for="password"></label>
+                        <input type="password" name="password" maxlength="12" minlength="8" placeholder="Password"><br><br>
+                        <input type="submit">
+                </form><br><br>
+
+                <button type="button" id="jug" onclick="BigJ()">Click Me</button><br><br>
+                <table >
+                    <table width="500" border="1">
+                        <tr>
+                            <td><b>Food Items</b></td>
+                            <td><b>Price</b></td>
+                        </tr>
+                        <tr>
+                            <td>Eggs</td>
+                            <td>3.99</td>
+                        </tr>
+                        <tr>
+                            <td>Cheese</td>
+                            <td>2.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tomatoes</td>
+                            <td>2.15</td>
+                        </tr>
+                        <tr>
+                            <td>Bacon</td>
+                            <td>8.00</td>
+                        </tr>
+                        <tr>
+                            <td>Celantro</td>
+                            <td>0.99</td>
+                        </tr>
+                        <tr>
+                            <td>All Spices</td>
+                            <td>5.65</td>
+                        </tr>
+                    </table>
+                </table><br><br>
+            
+                <table background="C:/Users/Jitic%20Projects/Pictures/TEMS,,.jpg" border="1" width="600" >
+                    <tr>
+                        <td><b>Food Items</b></td>
+                        <td><b>Price </b></td>
+                    </tr>
+                    <tr>
+                        <td>Eggs</td>
+                        <td>3.99</td>
+                    </tr>
+                    <tr>
+                        <td>Cheese</td>
+                        <td>2.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tomatoes</td>
+                        <td>2.15</td>
+                    </tr>
+                    <tr>
+                        <td>Bacon</td>
+                        <td>8.00</td>
+                    </tr>
+                    <tr>
+                        <td>Celantro</td>
+                        <td>0.99</td>
+                    </tr>
+                    <tr>
+                        <td>All Spices</td>
+                        <td>5.65</td>
+                    </tr>
+                </table><br><br>
+        
+                <iframe src="http://www.bing.com" width="100%" height="400px">
+                    <p>Your browser doesn't support this iframe.</p>
+                </iframe>
+        
+                <iframe src="http://www.bing.com" width="100%" height="400px">
+                    <p>Your browser doesn't support this iframe.</p>
+                </iframe>
+            </body>
+
+</html>
