@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <head>
+        <title>OSE | Login</title>
+            <meta name="description" content="OSE is a drama queen. Login to see what he's all about"/>
+            <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="stylesheet" type="text/css" href="OSE_II.css">
+    </head>
+        <body class="body">
+            <fieldset style="text-align: center; border: 0ch;">
+                <form>
+                    <legend style="text-align: inherit; padding-top: 15%;"><strong style="color: rgb(218, 217, 217); font-size: larger;"><b> LOGIN</b> </strong></legend><br>
+                        <label for="username"></label>
+                            <input type="text" placeholder="Username" name="username" minlength="3" maxlength="6"><br><br>
+                        <label for="password"></label>
+                            <input type="password" name="password" placeholder="Password" minlength="8" maxlength="12"><br><br>
+                            <input formaction="OSE_IV.html" type="submit" value="Login" style="text-align: left;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                            <input formaction="OSE_III.html" formenctype="application/x-www-form-urlencoded" type="submit" value="Sign Up" style="text-align: right;">           
+                </form>
+            </fieldset>
+        </body>    
+</html>
