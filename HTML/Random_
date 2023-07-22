@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Yeezy</title>
+            <meta charset="UTF-8">
+        </head>
+    <body>
+        <table background="C:/Users/Jitic%20Projects/Pictures/TEMS,,.jpg" border="1" width="600" >
+            <tr>
+                <td><b>Food Items</b></td>
+                <td><b>Price </b></td>
+            </tr>
+            <tr>
+                <td>Eggs</td>
+                <td>3.99</td>
+            </tr>
+            <tr>
+                <td>Cheese</td>
+                <td>2.00</td>
+            </tr>
+            <tr>
+                <td>Tomatoes</td>
+                <td>2.15</td>
+            </tr>
+            <tr>
+                <td>Bacon</td>
+                <td>8.00</td>
+            </tr>
+            <tr>
+                <td>Celantro</td>
+                <td>0.99</td>
+            </tr>
+            <tr>
+                <td>All Spices</td>
+                <td>5.65</td>
+            </tr>
+        </table><br><br>
+
+        <iframe src="http://www.bing.com" width="100%" height="400px">
+            <p>Your browser doesn't support this iframe.</p>
+        </iframe>
+
+        <iframe src="http://twitter.com" width="100%" height="400px">
+            <p>Your browser doesn't support this iframe.</p>
+        </iframe>
+    </body>
+</html>
