@@ -11,7 +11,7 @@
                 <form>
                     <legend style="text-align: inherit; padding-top: 15%;"><strong style="color: rgb(218, 217, 217); font-size: larger;"><b> LOGIN</b> </strong></legend><br>
                         <label for="username"></label>
-                            <input type="text" placeholder="Username" name="username" minlength="3" maxlength="6"><br><br>
+                            <input type="text" placeholder="Username" name="username" minlength="3" maxlength="7"><br><br>
                         <label for="password"></label>
                             <input type="password" name="password" placeholder="Password" minlength="8" maxlength="12"><br><br>
                             <input formaction="OSE_IV.html" type="submit" value="Login" style="text-align: left;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
