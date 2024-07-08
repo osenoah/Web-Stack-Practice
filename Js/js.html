@@ -9,9 +9,8 @@
     <body>
         <h1>Js Variables</h1>
             <p id="dem">
-            <p id="ari">
-            <p id="ops">
             <p id="me">
+            <p id="she">
                 <script>
  //calling the id on html
  //int JS
@@ -25,12 +24,15 @@
                     var y = x * c;
                     var z = b;
 
-                    var me = {firstname:"Ose", lastname:"Noah", age:c, eyecolor:"Coffee Brown", religion:"Christian", gender:"male"}
-                
-                    document.getElementById("dem").innerHTML = y;
-                    document.getElementById("ari").innerHTML = x;
-                    document.getElementById("ops").innerHTML = z;
+                    var me = {firstname:"Ose", lastname:"Noah", age:c, eyecolor:"Coffee Brown", religion:"Christian", gender:"male"};
+                    var she = ["cat", "fish", "mines", "J"];
+
+                    document.getElementById("dem").innerHTML = y + "<p>" + x + "<p>" + z ;
                     document.getElementById('me').innerHTML = 'My initial is '+ me.lastname +" "+ me.firstname +'.'+" "+'I am'+" "+ me.age +" "+ 'years old '+'.'+" "+ 'I am a' +"&nbsp"+ me.religion;
+                    document.getElementById("she").innerHTML = she.length + "<br>" + she.toString();
+// txt.length shows the text length in the selected id variable
+// Math.random() helps to generate a random number, value is btw 0 and 1
+// `` min, max, round           
                 </script>
             
     </body>

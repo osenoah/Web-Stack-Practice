@@ -2,7 +2,7 @@
  //calling the id on html
  //int JS
  //arith operations
-    var a = 10;
+    /*var a = 10;
     a--;
     var b = 27;
     b++;
@@ -17,4 +17,4 @@
     document.getElementById("ari").innerHTML = x;
     document.getElementById("ops").innerHTML = z;
     document.getElementById('me').innerHTML = 'My initial is '+ me.lastname +" "+ me.firstname +'.'+" "+'I am'+" "+ me.age +" "+ 'years old '+'.'+" "+ 'I am a' +"&nbsp"+ me.religion;
-                                    
+*/
