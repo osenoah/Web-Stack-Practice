@@ -1,14 +1,59 @@
+/*Stylesheets for the Anime Website*/
+
 /*Ose*/
+/* 
+( *{ )univeral selector
+# for ID
+*/
 .body{
     text-align: center;
     background-size: 100%;
-    background-image: url('file:///C:/Users/HP/Documents/Scanned%20Documents/Welcome%20Scan.jpg');
+    background-image: url('C:/Users/HP/Downloads/one-piece-gear-5-luffy-3840x2160-12504.png');
+    background-attachment: fixed;
+    /*Luffy Gear 5*/
 
 }
-
+fieldset {
+text-align: center;
+border: 0ch;
+}
+legend {
+    text-align: inherit;
+    padding-top: 15%;
+}
 /*Ose_*/
 .body1{
     text-align: center;
     background-size: 100%;
     background-image: url('C:/Users/HP/Downloads/nezuko-kamado-pink-5120x2880-16946.jpg');
+    /*Nezuko chaaaan*/
 }
+
+.one {
+    border-collapse:collapse;
+    border-spacing: 10px;
+    width: 400px;
+    table-layout: auto;
+}
+.two {
+    border-collapse:separate;
+    border-spacing: 10px 50px;
+    width: 400px;
+    table-layout: fixed;
+}
+         
+         td.a {
+            border-bottom-style:dotted; 
+            border-top-style: solid;
+            border-left: 3px violet dashed;
+            border-width:3px; 
+            border-color:#000000; 
+            padding: 10px;
+            border-bottom-color: blue;
+         }
+         td.b {
+            border-style:solid; 
+            border-width:3px; 
+            border-color:#333333; 
+            padding:10px;
+         }
