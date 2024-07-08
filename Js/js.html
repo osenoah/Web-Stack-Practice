@@ -25,14 +25,24 @@
                     var z = b;
 
                     var me = {firstname:"Ose", lastname:"Noah", age:c, eyecolor:"Coffee Brown", religion:"Christian", gender:"male"};
-                    var she = ["cat", "fish", "mines", "J"];
-
+                    var she = ["Cat", "Fish", "Mines", "J", "Baby", "Grindleward"];
+                    she[1] = "JL"
+                        delete she[4], me.eyecolor;
+                        she.splice(3, 0, "Lollie", "DinDin");
+                        // she.reverse(); to reverse the array's elements
+                        she.sort();
                     document.getElementById("dem").innerHTML = y + "<p>" + x + "<p>" + z ;
                     document.getElementById('me').innerHTML = 'My initial is '+ me.lastname +" "+ me.firstname +'.'+" "+'I am'+" "+ me.age +" "+ 'years old '+'.'+" "+ 'I am a' +"&nbsp"+ me.religion;
                     document.getElementById("she").innerHTML = she.length + "<br>" + she.toString();
-// txt.length shows the text length in the selected id variable
-// Math.random() helps to generate a random number, value is btw 0 and 1
-// `` min, max, round           
+/* 
+txt.length shows the text length in the selected id variable
+Math.random() helps to generate a random number, value is btw 0 and 1
+`` min, max, round           
+pop-removes last element in array
+shift-removes 1st element 
+push-adds a new element to the end of an array
+unshift- adds a new element to the beginning of an array
+*/
                 </script>
             
     </body>
