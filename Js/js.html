@@ -4,7 +4,7 @@
         <title>JS-Les</title>
         <meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <script type="text/javascript" src="Js-les.js"></script>
+            
     </head>
     <body>
         <h1>Js Variables</h1>
@@ -23,17 +23,21 @@
                     var x = (a * b) / (a + b);
                     var y = x * c;
                     var z = b;
+                    var p = Boolean(-5);
 
                     var me = {firstname:"Ose", lastname:"Noah", age:c, eyecolor:"Coffee Brown", religion:"Christian", gender:"male"};
                     var she = ["Cat", "Fish", "Mines", "J", "Baby", "Grindleward"];
+                    var m3 = [me.lastname, me.firstname, me.eyecolor]
+                    var us = she.concat(m3);
                     she[1] = "JL"
                         delete she[4], me.eyecolor;
                         she.splice(3, 0, "Lollie", "DinDin");
                         // she.reverse(); to reverse the array's elements
+                        // concat() used to join 2 arrays or  ore together
                         she.sort();
                     document.getElementById("dem").innerHTML = y + "<p>" + x + "<p>" + z ;
                     document.getElementById('me').innerHTML = 'My initial is '+ me.lastname +" "+ me.firstname +'.'+" "+'I am'+" "+ me.age +" "+ 'years old '+'.'+" "+ 'I am a' +"&nbsp"+ me.religion;
-                    document.getElementById("she").innerHTML = she.length + "<br>" + she.toString();
+                    document.getElementById("she").innerHTML = she.length + "<br>" + she.toString() + "<p>" + us + "<p>" + p;
 /* 
 txt.length shows the text length in the selected id variable
 Math.random() helps to generate a random number, value is btw 0 and 1
@@ -44,6 +48,7 @@ push-adds a new element to the end of an array
 unshift- adds a new element to the beginning of an array
 */
                 </script>
+                <script type="text/javascript" src="Js-les.js"></script>
             
     </body>
 </html>

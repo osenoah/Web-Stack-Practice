@@ -2,6 +2,7 @@
  //calling the id on html
  //int JS
  //arith operations
+ // Boolean () used to find out if an expression is true or not. Any Real value is true be ye string or numbers
     /*var a = 10;
     a--;
     var b = 27;
@@ -18,3 +19,31 @@
     document.getElementById("ops").innerHTML = z;
     document.getElementById('me').innerHTML = 'My initial is '+ me.lastname +" "+ me.firstname +'.'+" "+'I am'+" "+ me.age +" "+ 'years old '+'.'+" "+ 'I am a' +"&nbsp"+ me.religion;
 */
+var score = 100;
+
+if (score < 50) {
+    document.write("F");
+}
+else if (score < 70) {
+    document.write("D");
+}
+else if (score < 80) {
+    document.write("C");
+}
+else if (score < 90) {
+    document.write("B");
+}
+else if (score <= 100) {
+    document.write("A");
+}
+else {
+    document.write("You overdid yourself, Score must not be more than 100") + "<br>"
+} 
+
+var count;
+for (count = 0; count <=16 ; count++) {
+    document.write( count )
+    document.write("<br />");
+    
+}
+    
