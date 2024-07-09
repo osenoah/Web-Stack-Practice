@@ -37,13 +37,19 @@ else if (score <= 100) {
     document.write("A");
 }
 else {
-    document.write("You overdid yourself, Score must not be more than 100") + "<br>"
+    document.write("You overdid yourself, Score must not be more than 100")
 } 
 
 var count;
-for (count = 0; count <=16 ; count++) {
+for (count = 0; count <=8 ; count++) {
     document.write( count )
     document.write("<br />");
     
 }
-    
+
+var i = 1;
+while (i <= 7) {
+    document.write(i);
+    document.write("<br />");
+    i++
+}

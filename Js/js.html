@@ -25,6 +25,8 @@
                     var z = b;
                     var p = Boolean(-5);
 
+                    var txt = ""
+                    var k;
                     var me = {firstname:"Ose", lastname:"Noah", age:c, eyecolor:"Coffee Brown", religion:"Christian", gender:"male"};
                     var she = ["Cat", "Fish", "Mines", "J", "Baby", "Grindleward"];
                     var m3 = [me.lastname, me.firstname, me.eyecolor]
@@ -35,7 +37,10 @@
                         // she.reverse(); to reverse the array's elements
                         // concat() used to join 2 arrays or  ore together
                         she.sort();
-                    document.getElementById("dem").innerHTML = y + "<p>" + x + "<p>" + z ;
+                    for(k in me) {
+                        txt += me[k] + " ";
+                    }    
+                    document.getElementById("dem").innerHTML = y + "<p>" + x + "<p>" + z + "<p>" + txt;
                     document.getElementById('me').innerHTML = 'My initial is '+ me.lastname +" "+ me.firstname +'.'+" "+'I am'+" "+ me.age +" "+ 'years old '+'.'+" "+ 'I am a' +"&nbsp"+ me.religion;
                     document.getElementById("she").innerHTML = she.length + "<br>" + she.toString() + "<p>" + us + "<p>" + p;
 /* 
@@ -46,9 +51,21 @@ pop-removes last element in array
 shift-removes 1st element 
 push-adds a new element to the end of an array
 unshift- adds a new element to the beginning of an array
-*/
+*/                  
                 </script>
                 <script type="text/javascript" src="Js-les.js"></script>
-            
+            <button onclick="myFunction">Click Here</button>
+            <p id="omo"></p>
+            <script>
+                function myFunction() {
+                var h = 0;
+                do {
+                    document.write(h+"<br>");
+                    h++;
+                } 
+                while (h < 10);
+                    document.getElementById("omo").innerHTML = me;
+                }
+            </script>
     </body>
 </html>
