@@ -42,6 +42,9 @@ else {
 
 var count;
 for (count = 0; count <=8 ; count++) {
+    if (count === 3) { continue
+        
+    }
     document.write( count )
     document.write("<br />");
     
