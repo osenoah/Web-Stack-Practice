@@ -42,7 +42,7 @@ else {
 
 var count;
 for (count = 0; count <=8 ; count++) {
-    if (count === 3) { continue
+    if (count === 3) { break //continue
         
     }
     document.write( count )
