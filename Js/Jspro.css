@@ -17,7 +17,7 @@ body {
 }
 
 .ani img:hover {
-    border: px solid rgb(138, 90, 45);
+    border: 2px solid rgb(138, 90, 45);
 }
 
 .preview img {
