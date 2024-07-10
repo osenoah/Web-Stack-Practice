@@ -1,0 +1,24 @@
+/**/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 20px;
+    background: #2c2c2c;
+}
+
+.ani img{
+    height: 80px;
+    border: 2px solid #555;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+}
+
+.ani img:hover {
+    border: 4px solid rgb(138, 90, 45);
+}
+
+.preview img {
+    width: 800px;
+    border: 4px solid #444;
+    padding: 1px;
+}

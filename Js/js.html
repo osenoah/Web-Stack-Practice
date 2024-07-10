@@ -58,9 +58,9 @@ unshift- adds a new element to the beginning of an array
                 <button onclick="myFunction()">Click Here</button>
            <br> <p id="omo"></p>
             <script>
-            function omo(x, y) {
+            function omo(x , y) {
                     return (x*y)/(x+y)
-                document.getElementById("ls").innerHTML = omo(3, 4);
+                document.getElementById("omo").innerHTML = omo(3 , 4);
                 }
             </script>
             <script>
@@ -74,8 +74,10 @@ unshift- adds a new element to the beginning of an array
                     document.getElementById("omo").innerHTML = me;
                 }
                
+                var bgcolor= new Array("rgb(214, 38, 170)", "rgb(154, 100, 20)", "rgb(10, 10, 10)", "rgb(64, 132, 89)", "rgb(14, 110, 0)", "rgb(204, 90, 49)", "rgb(114, 10, 50)")
+                document.body.style.background=bgcolor[Math.floor(Math.random()*bgcolor.length)];
             </script>
                 <p id="gaga"></p>
-            <button onclick="getElementById('gaga').innerHTML=Date()">Time</button>
+            <button onmouseover="getElementById('gaga').innerHTML=Date()">Time</button>
     </body>
 </html>
