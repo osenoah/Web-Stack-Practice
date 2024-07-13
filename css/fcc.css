@@ -72,6 +72,7 @@ ul {
 }
 ul li:nth-child(even) {
     color:rgba(99, 58, 32, 0.541)
+    
 }
 ::marker{
     color: #0000009a;
