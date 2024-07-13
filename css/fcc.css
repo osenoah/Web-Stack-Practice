@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background: rgba(220, 130, 46, 0.5);
+    min-height: 100vh;
+    margin: 2em;
+    max-width: 100vw;
+}
+h1 {
+    color: rgb(105, 42, 0);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 0.5em; /*better to use 'em' for padding*/
+    font-size: 3rem;
+
+    
+}
+h2 {
+    
+    font-size: 1rem;
+    padding: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    text-align: justify;
+    text-indent: 2em;
+    color: dimgrey;
+    padding: 0.3em;
+    line-height: 1.4;
+    word-spacing: 0.2em;
+}
+.circle {
+    margin: 3rem 2em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgb(194, 88, 49);
+}
+
+main {
+    text-align: center;
+    padding: 3%;
+    margin: 2em 2em;
+}
+
+input, button {
+    font: inherit;
+}
+
+a {
+    color: rgb(68, 68, 68);
+}
+/* a:visited {
+    color:blueviolet;
+} */
+a:hover {
+    color: rgb(32, 32, 32);
+}
+a:active{
+    color: darkgoldenrod;
+}
+
+ul {
+    list-style: disc;
+    list-style-position: inside;
+    color: rgba(124, 46, 0, 0.719);
+    line-height: 1.5;
+}
+ul li:nth-child(even) {
+    color:rgba(99, 58, 32, 0.541)
+}
+::marker{
+    color: #0000009a;
+}
+
+ tr {
+    height: 30px;
+    padding: 20px;
+}
+
+td{
+    padding: 1.5em;
+    margin: 3rem 2em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    
+    
+
+} 
+img {
+    width: 350px;
+    height: 210px;
+    border-radius: 20px;
+    margin: 2em;
+    border: 4px solid rgb(194, 88, 49);
+}
