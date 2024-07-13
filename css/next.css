@@ -1,15 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background: rgba(220, 130, 46, 0.5);
+    min-height: 100vh;
+    margin: 2em;
 }
 h1 {
     color: rgb(105, 42, 0);
     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 0.5em; /*better to use 'em' for padding*/
+    font-size: 3rem;
+
     
 }
 h2 {
-    font-size: 100%;
+    font-size: 1rem;
+    padding: 0.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p {
     color: dimgrey;
+    padding: 0.3em;
 }
