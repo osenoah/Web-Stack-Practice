@@ -1,13 +1,20 @@
 /**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     margin: 20px;
     background: #2c2c2c;
+    min-height: 100vh;
 }
 
 .cont {
     text-align: center;
+    padding: 2em;
 }
 .ani img{
     height: 80px;
