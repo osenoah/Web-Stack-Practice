@@ -1,13 +1,17 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
+/*  * {
+    scroll-behavior: smooth;
+ } */
  body {
     font-size: 1.5rem;
     font-family: cursive;
+    
  }
-
+html{scroll-behavior: smooth;}
 .float {
     width: 20vh;
     height: 20vh;
@@ -33,6 +37,9 @@ img {
     float: right;
     margin-left: 1rem;
 }
+p {
+    margin: 1rem;
+}
 
 .left{
     float: left;
@@ -47,5 +54,72 @@ section {
     border:2px solid #000;
     border-radius: 2em;
     display: flow-root;
-    
+    width: 50%;
+    margin: 1rem;
+}
+.column {
+    columns: 4 200px;
+    column-rule: 2px solid darkslategray ;
+    column-gap: 1em;
+    font-family: 'Times New Roman', Times, serif
+}
+.column p {
+    margin-top: 0;
+}
+
+.column h2 {
+    font-family: monospace;
+    background-color: darkslategrey;
+    padding: 1rem;
+    border-radius: 1em;
+    color: aliceblue;
+    break-inside: avoid;
+}
+
+.column .quote {
+    font-size: 3em;
+    text-align: center;
+    font-family: monospace;
+    column-span: all;
+}
+
+.column span {
+    font-style: oblique;
+    font-size: 0.5em;
+}
+
+header {
+    position: sticky;
+    top: 0.1em;
+    width: 93vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin: 2rem 2rem 1rem 1rem;
+    padding: 0.6rem;
+    color: aliceblue;
+    border-radius: 2em;
+    text-align: center;
+    background-color: darkslategray;
+   
+}
+li {
+    text-align: center;
+}
+body .foot {
+    position: fixed;
+    bottom: 0;
+    background-color: darkslategray;
+    width: 100%;
+    margin: 0;    
+    text-align: center;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 3.4rem;
+    margin-left: 0;
+}
+a:hover{
+    color:dimgray
 }
