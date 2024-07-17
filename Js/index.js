@@ -1,4 +1,4 @@
-/* 
+
 function increment() {
     console.log("It works")
  }
@@ -27,7 +27,7 @@ function increment() {
  Dogs()
  Dogs()
  Dogs()
- console.log(dog) */
+ console.log(dog) 
 
  let count = 0
 
