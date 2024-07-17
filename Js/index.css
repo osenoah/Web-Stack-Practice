@@ -17,16 +17,16 @@ h1{
     margin-bottom: 0;
 }
 
-.counter {
+#counterEl {
     margin-top :1rem;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 div {
     border-radius: 2em;
     color:rgb(189, 188, 188)
 }
-button {
+.Yeat {
     background-color: darkgrey;
     padding: 1em;
     font-size: 0.5em;
@@ -35,4 +35,27 @@ button {
     width: 60%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkslategray;
+    font-weight: bolder;
+}
+
+#sbtn {
+    margin: 2em;
+    background-color: darkolivegreen;
+    border-style: none;
+    width: 20%;
+    color: azure;
+    border-radius: 2em;
+    font-size: 0.5em;
+    font-weight: lighter ;
+    font-family: monospace;
+    
+}
+
+#previous{
+    font-size: 0.6em;
+    color: blanchedalmond;
+    text-align: left;
+}
+button:hover {
+    opacity: 0.74;
 }

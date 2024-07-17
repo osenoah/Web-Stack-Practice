@@ -22,17 +22,48 @@ function increment() {
  let dog = 0
 
  function Dogs() {
-    dog = dog + 1
+    dog += 1
 }
  Dogs()
  Dogs()
  Dogs()
  console.log(dog) 
 
- let count = 0
+ 
 
-function Yeat() {
-    count = count + 1
-    console.log(count)
+
+let count = 0
+   function Yeat() {
+   let counterEl = document.getElementById('counterEl')
+     count += 1
+     counterEl.innerHTML = count
+    
+   }
+
+   
+   let user = "Ose"
+   
+   let message = "You have three new notifications."
+
+   let messageuser = "We have logged"
+   console.log(user + ", " + message)
+
+   let greet = "Hi I am, "
+   let meetme = greet + user + "."
+   console.log(meetme)
+
+let welcomeEl = document.getElementById('welcomeEl')
+  
+let welcome = "Welcome back, "
+welcomeEl.innerHTML =  welcome + user
+
+welcomeEl.innerHTML += "🙃"
+   
+ let previousEl = document.getElementById("previous")
+function save() {
+      console.log(count)
+
+let amount = count + "-"
+previousEl.innerHTML += amount
+
 }
-Yeat()
